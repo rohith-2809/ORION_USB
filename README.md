@@ -63,6 +63,17 @@ graph TD
 
 ---
 
+## ⚙️ Hardware Compatibility & Model Selection
+
+ORION is deeply flexible and recognizes that different host PCs have different computational capabilities. You are not locked into a single AI model!
+
+*   **Low-End Hardware (CPU Only)**: You can configure ORION to use smaller, heavily quantified LLMs (like Llama 3 8B Q4) and CPU-optimized Speech-to-Text models (like Vosk) to ensure smooth, responsive performance on standard laptops.
+*   **High-End Hardware (Dedicated GPUs)**: If you plug ORION into a gaming PC or workstation with an Nvidia GPU, you can swap in full-precision, massive parameters models and leverage bleeding-edge ASR (like Nvidia Parakeet) for near-instant latency and incredible intelligence.
+
+To swap models, simply drop your designated GGUF files or NeMo archives into the `models/` directory and update the config file!
+
+---
+
 ## 🛡️ Security & Privacy (Zero-Trace)
 
 To guarantee a clean, 1-click experience, ORION respects strict privacy boundaries:
