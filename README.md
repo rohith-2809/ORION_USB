@@ -39,12 +39,15 @@ All I/O, memory, and logs are redirected to folders on the USB stick; nothing is
 
 ## 🏗️ System Architecture
 
+
 ```mermaid
 graph TD
     User([👤 User]) <--> |Voice / Text| Frontend(🌐 React UI)
     User <--> |Microphone / Speaker| VoiceSystem(🎙️ Voice Subsystem)
 
-    Frontend <--> |WebSockets / HTTP| Orchestrator(🧠 Core Orchestrator)
+    USB([🔌 ORION USB]) ==> |Plug & Play / One-Click Launch| Orchestrator(🧠 Core Orchestrator)
+
+    Frontend <--> |WebSockets / HTTP| Orchestrator
     VoiceSystem <--> Orchestrator
 
     Orchestrator <--> Planner(📋 Policy & Intent)
