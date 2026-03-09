@@ -1,4 +1,3 @@
-
 """
 ORION DEFENSE KERNEL
 ===================
