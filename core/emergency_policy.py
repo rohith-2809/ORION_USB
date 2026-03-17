@@ -1,5 +1,4 @@
 # emergency_policy.py
-
 class EmergencyPolicy:
     """
     Defines when ORION may act without human approval.
