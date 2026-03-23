@@ -1,3 +1,4 @@
+
 # emergency_policy.py
 class EmergencyPolicy:
     """
