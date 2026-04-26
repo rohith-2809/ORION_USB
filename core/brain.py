@@ -15,6 +15,7 @@ class OrionBrain:
     - Authority-safe (no execution, no memory)
     """
 
+    
     def __init__(self):
         orion_root = os.environ.get('ORION_ROOT', os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
         model_path = Path(os.path.join(orion_root, "models", "Meta-Llama-3-8B-Instruct.Q4_K_S.gguf"))
