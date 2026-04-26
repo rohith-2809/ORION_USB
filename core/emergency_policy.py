@@ -5,7 +5,6 @@ class EmergencyPolicy:
     """
     CONFIDENCE_THRESHOLD = 0.9
     AUTHORITY_TIMEOUT = 45  # seconds
-
     ALLOWED_ACTIONS = {
         "freeze_directory",
         "suspend_pid",
