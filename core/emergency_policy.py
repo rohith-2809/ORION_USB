@@ -3,7 +3,6 @@ class EmergencyPolicy:
     """
     Defines when ORION may act without human approval.
     """
-
     CONFIDENCE_THRESHOLD = 0.9
     AUTHORITY_TIMEOUT = 45  # seconds
 
