@@ -5,7 +5,6 @@ Authority-gated execution layer.
 NO detection logic.
 NO autonomous execution.
 """
-
 import os
 import signal
 import subprocess
