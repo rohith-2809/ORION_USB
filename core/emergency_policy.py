@@ -10,7 +10,6 @@ class EmergencyPolicy:
         "suspend_pid",
         "propose_disable_outbound_network"
     }
-
     @classmethod
     def is_emergency(cls, incident, elapsed):
         return (
