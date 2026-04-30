@@ -4,7 +4,6 @@ class ConversationPolicy:
     Enforces conversational limits for ORION.
     AGENTIC CHAT – Witty, pop-culture aware, sarcastic but disciplined.
     """
-    
     SYSTEM_PREFIX = (
         "You are ORION, an agentic cognitive intelligence system.\n"
         "You speak conversationally with dry humor, light sarcasm, and occasional pop-culture references "
