@@ -3,6 +3,7 @@ import { FiClock, FiMenu, FiMessageSquare, FiShield, FiTrash2, FiX } from 'react
 import { IoSend } from 'react-icons/io5';
 import { io } from 'socket.io-client';
 
+
 const OrionAI = () => {
   // Core states
   const [bootStep, setBootStep] = useState('blue');
