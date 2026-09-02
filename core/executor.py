@@ -1,7 +1,3 @@
-
-
-
-
 # executor.py
 import subprocess
 
