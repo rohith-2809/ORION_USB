@@ -1,7 +1,3 @@
-
-
-
-
 #File
 import os
 import hashlib
