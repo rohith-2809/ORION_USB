@@ -115,6 +115,9 @@ To access the core code, model configurations, or edit the launcher scripts, kee
 2. At the top of File Explorer, click **View** > **Show** > **Hidden items**.
 3. You will see the faded `ORION_USB` directory. Hop right in to hack the Python core inside `core/` or upgrade the React interface inside `orion_ui/`.
 
+
+author : Rohith , Co-author : cm 
+
 ---
 
 <div align="center">
